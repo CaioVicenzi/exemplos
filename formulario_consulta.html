@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Clínica do Caio</title>
+
+</head>
+
+<script type="text/javascript">
+	// nome completo, CPF, data de nascimento, endereço, CEP, e-mail e telefone.
+</script>
+
+<body>
+	<h1>Marque sua consulta</h1>
+	<form>
+		<fieldset>
+			<legend>Dados pessoais</legend>
+
+			<label for="nomeCompleto">Nome Completo: </label><br>
+			<input type="text" name="nomeCompleto"><br>
+			<br>
+			<label for="cpf">CPF:</label><br>
+			<input type="text" name="email"><br>
+			<br>
+			<label for="dataNascimento">Data de nascimento:</label><br>
+			<input type="date" name="dataNascimento"><br>
+			<br>
+			<label for="endereco">Endereço:</label><br>
+			<input type="text" name="endereco"><br>
+			<br>
+			<label for="cep">CEP:</label><br>
+			<input type="text" name="cep"><br>
+			<br>
+			<label for="email">Email:</label><br>
+			<input type="email" name="email"><br>
+			<br>
+			<label for="telefone">Telefone:</label><br>
+			<input type="tel" name="telefone"><br>
+		</fieldset>
+		<br><br><br>
+		<fieldset>
+			<legend>Dados da consulta</legend>
+
+			<label for="especialidade">Especialidade Medica: </label><br>
+			<select name="especialidade">
+				<option>Dermatologia</option>
+				<option>Cardiologia</option>
+				<option>Pediatria</option>
+				<option>Ortopedia</option>
+			</select><br>
+			<br>
+			<label for="data">Data: </label><br>
+			<input type="date" name="data"><br>
+			<br>
+			<label for="hora">Hora: </label><br>
+			<input type="time" name="hora"><br>
+			<br>
+
+
+
+			<label for="alergicos"></label>Alergias a medicamentos:<br>
+			<input type="checkbox" name="alergicos">Antibióticos <br>
+			<input type="checkbox" name="alergicos">Anti-inflamatórios<br>
+			<input type="checkbox" name="alergicos">Anticonvulsivantes<br>
+			<input type="checkbox" name="alergicos">Relaxantes musculares<br>
+
+			<br>
+			<label for="adicionais">Informações adicionais:</label><br>
+			<textarea name="adicionais" cols="30" rows="6"></textarea>
+		</fieldset>
+
+
+		<input type="reset" name="resetar">
+		<input type="submit" name="submeter">
+
+	</form>
+</body
+
+</html>
